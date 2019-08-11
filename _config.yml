@@ -17,6 +17,7 @@ timezone: America/Los_Angeles
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Joe's Notes
+author: Joe Knox
 email: jknox@elltel.net
 description: >- # this means to ignore newlines until "baseurl:"
   Just some notes on some things
@@ -24,9 +25,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username: jknox13
-instagram_username: cupajoeknox
+# instagram_username: cupajoeknox
 linkedin_username: josephknox
-github_username: jknox13
 
 # Build settings
 markdown: kramdown
