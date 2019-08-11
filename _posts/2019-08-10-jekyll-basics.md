@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Jekyll Basics"
-date:   2019-08-10 14:25:00 -0700
-categories: web ruby
+date:   2019-08-10 14:25
+categories: [web]
+tags: [jekyll, ruby]
 ---
 This site is generated with [Jekyll](https://jekyllrb.com/). Here are some brief 
 notes on using Jekyll.
@@ -69,7 +70,23 @@ Load from YAML, JSON, and CSV files placed in the `_data` directory using the
 Place CSS, JS, images and other assets in the `assets` directory -- typically 
 within their own respective subdirectories (i.e. `/assets/css/styles.scss`).
 
-## Blogging
+## Posts
 All posts should live in the `_posts` directory. Filenames for blog posts must 
 conform to the naming convention: `_posts/{date}-{title}.{extention}` (i.e.  
 `_posts/2019-04-20-half-baked.md`).
+
+### Linking
+{% raw %}
+One can link other posts using the `post_url` tag like so `{% post_url 
+2019-04-20-half-baked.md %}`
+{% endraw %}
+
+### Categories & Tags
+Jekyll has first class support for categories and tags in blog posts. The 
+difference between categories and tags is a category can be part of the URL for 
+a post whereas a tag cannot. List categories and tags in the front matter.
+
+### Drafts
+Posts not yet ready to publish belong in the `_drafts` directory and do not 
+include the date in the filename. To locally serve your site with drafts 
+included, run `jekyll serve` with the `--drafts` switch.
