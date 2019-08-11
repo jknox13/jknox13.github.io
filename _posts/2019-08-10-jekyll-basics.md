@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jekyll Basics"
-date:   2019-08-10 14:25
+date:   2019-08-10
 categories: [web]
 tags: [jekyll, ruby]
 ---
