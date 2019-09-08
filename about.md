@@ -8,5 +8,4 @@ permalink: /about/
 
 My name is Joe, and these are just some notes on some things.
 
-Best way to contact me is on IG or LinkedIn 'cause it's {{ site.time | date: 
-'%Y' }}.
+Best way to contact me is on LinkedIn 'cause it's {{ site.time | date: '%Y' }}.
